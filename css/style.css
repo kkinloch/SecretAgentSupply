@@ -1,19 +1,24 @@
 html {
   font-family: Helvetica;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
+}
+body {
+  width: 960px;
 }
 
 .logo {
   display: inline-flex;
+  padding-top: .66rem;
+  padding-bottom: .66rem;
   width: 100%;
-  padding: 1%;
   align-items: center;
   background: black;
   text-transform: uppercase;
 }
 .logo img {
-  margin-left: 20%;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
 }
 
 .logo h3 {
@@ -24,33 +29,38 @@ html {
   display: flex;
   background-image: url("../resources/images/moto.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0% 95%;
-  height: 400px;
+/*  background-size: cover;
+  background-position: 0% 95%; */
+  height: 25rem;
 }
 
 .mainbanner_text {
-  background-color: black;
+  /* make relative position so we can move and float on top of image */
   position: relative;
-  height: 150px;
-  width: 300px;
-  top: 20%;
+  background-color: black;
+  height: 10rem;
+  width: 22rem;
+  top: 9rem;
   left: 20%;
   text-transform: uppercase;
 }
 
-.mainbanner_text h3 {
+.mainbanner_text .p1 {
   font-size: 1.0rem;
-  margin: 1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 3rem;
 }
 
-.mainbanner_text h2 {
-  font-size: 1.5rem;
-  margin: 1rem;
+.mainbanner_text .p2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.25rem;
+  margin-left: 3rem;
 }
 
 .navigation {
-  background-color: Crimson;
+  background-color: Firebrick;
   display: flex;
   height: 2rem;
   align-items: center;
@@ -63,7 +73,9 @@ html {
   /*make flex so we can align and justify the menue items*/
   align-items: center;
   justify-content: space-around;
-  width: 1075px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  width: 960px;
   height: 2rem;
 }
 
@@ -74,8 +86,7 @@ html {
 
 .productgrid {
   display: flex;
-  flex-wrap: wrap;
-  padding-top: 2rem;
+  padding-top: 3rem;
   justify-content: space-around;
 }
 
@@ -83,7 +94,14 @@ html {
   /* make flex and column, in order to position and stylize */
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
+  width: 30%;
+  border: 4px solid black;
+}
+
+.productgrid .prod1 img {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .productgrid .prod1 .prod1_text {
@@ -92,15 +110,22 @@ html {
   background-color: black;
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
-  height: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .productgrid .prod2 {
   /* make flex and column, in order to position and stylize */
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
+  width: 30%;
+  border: 4px solid black;
+}
+
+.productgrid .prod2 img {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .productgrid .prod2 .prod2_text {
@@ -109,15 +134,22 @@ html {
   background-color: black;
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
-  height: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .productgrid .prod3 {
   /* make flex and column, in order to position and stylize */
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
+  width: 30%;
+  border: 4px solid black;
+}
+
+.productgrid .prod3 img {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .productgrid .prod3 .prod3_text {
@@ -126,8 +158,8 @@ html {
   background-color: black;
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
-  height: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .contact {
@@ -137,10 +169,10 @@ html {
 .contact .llabel{
   display: flex;
   background-color: black;
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-left: 3.5%;
   height: 4rem;
-  width: 22rem;
+  width: 35%;
   align-items: center;
   justify-content: center;
 }
@@ -148,10 +180,9 @@ html {
 .contact .hlabel {
   display: flex;
   background-color: black;
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-left: 22%;
-  height: 4rem;
-  width: 22rem;
+  width: 35%;
   align-items: center;
   justify-content: center;
 }
@@ -164,25 +195,25 @@ html {
 .ctext .ltext {
   display: flex;
   margin-top: 1rem;
-  margin-left: 3.5%;
-  height: 4rem;
-  width: 22rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
   align-items: center;
 }
 
 .ctext .htext {
   display: flex;
   margin-top: 1rem;
-  margin-left: 22%;
-  height: 4rem;
-  width: 22rem;
+  margin-left: 21rem;
+  margin-bottom: 1rem;
   align-items: center;
 }
 
 footer {
   background-color: black;
-  height: 4rem;
-  padding-left: 4%;
-  padding-top: 1rem;
+  height: 5rem;
+}
 
+footer p {
+    text-align: left;
+    padding-top: 2.25rem;
 }
