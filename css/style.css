@@ -129,3 +129,60 @@ html {
   margin-top: 3rem;
   height: 4rem;
 }
+
+.contact {
+  display: flex;
+}
+
+.contact .llabel{
+  display: flex;
+  background-color: black;
+  margin-top: 4rem;
+  margin-left: 3.5%;
+  height: 4rem;
+  width: 22rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .hlabel {
+  display: flex;
+  background-color: black;
+  margin-top: 4rem;
+  margin-left: 22%;
+  height: 4rem;
+  width: 22rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctext {
+  display: flex;
+  color: black;
+}
+
+.ctext .ltext {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 3.5%;
+  height: 4rem;
+  width: 22rem;
+  align-items: center;
+}
+
+.ctext .htext {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 22%;
+  height: 4rem;
+  width: 22rem;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+  height: 4rem;
+  padding-left: 4%;
+  padding-top: 1rem;
+
+}
