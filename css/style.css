@@ -231,6 +231,10 @@ footer p {
     font-size: 1.25rem;
   }
 
+  .navigation .nav_link {
+    display: none;
+  }
+
   .productgrid {
     flex-wrap: wrap;
   }
@@ -259,6 +263,9 @@ footer p {
      display: inline-block;
      justify-content: center;
    }
+   .navigation .nav_link {
+     display: none;
+   }
    .logo h3 {
      align-items: flex-end;
      font-size: 0.5rem;
@@ -275,7 +282,6 @@ footer p {
      width: 65%;
      flex-wrap: wrap;
    }
-
    footer {
      text-align: center;
    }
