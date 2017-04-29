@@ -59,6 +59,10 @@ body {
   margin-left: 3rem;
 }
 
+.navigation select {
+  display: none;
+}
+
 .navigation {
   background-color: Firebrick;
   display: flex;
@@ -216,4 +220,21 @@ footer {
 footer p {
     text-align: left;
     padding-top: 2.25rem;
+}
+
+@@media only screen and (max-width: 1024px) {
+  .mainbanner_text .p1 {
+    font-size: 0.75rem;
+  }
+
+  .mainbanner_text .p2 {
+    font-size: 1.25rem;
+  }
+  .navigation select {
+    display: inline-block;
+  }
+
+  .navigation .nav_link {
+    display: none;
+  }
 }
