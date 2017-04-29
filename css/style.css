@@ -231,7 +231,7 @@ footer p {
     font-size: 1.25rem;
   }
 
-  .navigation .nav_link {
+  .navigation ul li a {
     display: none;
   }
 
@@ -254,6 +254,7 @@ footer p {
   .navigation select {
     display: inline-block;
     justify-content: center;
+    color: white;
   }
 
 }
@@ -262,8 +263,9 @@ footer p {
    .navigation select {
      display: inline-block;
      justify-content: center;
+     color: white;
    }
-   .navigation .nav_link ul li a {
+   .navigation  ul li a {
      display: none;
    }
    .logo h3 {
