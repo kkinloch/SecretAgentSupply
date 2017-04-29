@@ -263,7 +263,7 @@ footer p {
      display: inline-block;
      justify-content: center;
    }
-   .navigation .nav_link {
+   .navigation .nav_link ul li a {
      display: none;
    }
    .logo h3 {
