@@ -227,7 +227,7 @@ footer p {
     font-size: 0.75rem;
   }
 
-  .mainbanner_text.p2 {
+  .mainbanner_text .p2 {
     font-size: 1.25rem;
   }
 
@@ -263,7 +263,6 @@ footer p {
    .navigation select {
      display: inline-block;
      justify-content: center;
-     color: white;
    }
    .navigation  ul li a {
      display: none;
@@ -273,15 +272,15 @@ footer p {
      font-size: 0.5rem;
    }
    .productgrid .prod1 {
-     width: 65%;
+     width: 75%;
      flex-wrap: wrap;
    }
    .productgrid .prod2 {
-     width: 65%;
+     width: 75%;
      flex-wrap: wrap;
    }
    .productgrid .prod3 {
-     width: 65%;
+     width: 75%;
      flex-wrap: wrap;
    }
    footer {
